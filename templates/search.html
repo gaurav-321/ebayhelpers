@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<div class="row jusitfy-content-center searchbarfull">
+    <div class="col-12">
+        <div class="d-flex justify-content-center h-100">
+            <form action="/search" method="POST">
+                <div class="searchbar">
+                    <input class="search_input" type="text" name="query" placeholder="Search...">
+                    <button class="search_icon"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row jusitfy-content-center searchbarfull">
+    <div class="col-12">
+
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Query</th>
+                <th scope="col">Link</th>
+                <th scope="col">Number Of Products</th>
+            </tr>
+            </thead>
+
+            <tbody class="bg-light">
+            {% for  x, y , z in data_list %}
+            <tr>
+                <th scope="row">{{ x+1 }}</th>
+                <td>{{ y }}</td>
+                <td> <a href="/products?id={{ x }}">Link</a></td>
+                <td>{{ y }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

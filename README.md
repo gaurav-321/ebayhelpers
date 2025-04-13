@@ -1,4 +1,3 @@
-```markdown
 # 🚀 eBay Helpers
 
 🔍 A set of tools to help you manage and analyze eBay products efficiently. Whether you're looking for product details or automating searches, these scripts have got you covered.
@@ -13,7 +12,7 @@ This project includes two main components: a Flask web application (`app.py`) an
   - Search for products using keywords.
   - View detailed information about each product.
   - Keep track of search queries and their results.
-  
+
 - **Automated Product Search Script**:
   - Automate the process of searching for products on eBay.
   - Filter products by price range.
@@ -100,6 +99,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Developed with ❤️ by [@gag3301v](https://github.com/gag3301v)
-```
 
-This README provides a comprehensive overview of the project, its features, installation instructions, usage examples, and essential information for contributing. It's designed to be clear, concise, and user-friendly, making it easy for anyone to understand and use the tools provided.
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
